@@ -31,6 +31,16 @@ https://raw.githubusercontent.com/Sakyoriii/rj-code-preview/main/dlsite-rj-code-
 - **可交互弹窗**：鼠标可以移入弹窗并点击其中的「打开 / 未配置」，弹窗在视口边缘会自动翻到另一侧。
 - **缓存**：本地检查结果缓存 5 分钟；登录 token 缓存 7 天，失效时自动重新登录。
 
+## 示例
+
+悬停 RJ 码，弹窗底部显示本地库状态：
+
+![本地库已收录](docs/images/popup-found.png)
+
+首次使用时配置本地 Kikoeru：
+
+![Kikoeru 本地库设置](docs/images/settings.png)
+
 ## 安装
 
 1. 安装 [Tampermonkey](https://www.tampermonkey.net/) 或 Violentmonkey；
