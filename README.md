@@ -9,6 +9,16 @@
 - 当前版本：3.2.1
 - 许可证：ISC（沿用上游）
 
+## 一键安装
+
+[**▶ 点此安装 dlsite-rj-code-preview.user.js**](https://raw.githubusercontent.com/Sakyoriii/rj-code-preview/main/dlsite-rj-code-preview.user.js)
+
+```text
+https://raw.githubusercontent.com/Sakyoriii/rj-code-preview/main/dlsite-rj-code-preview.user.js
+```
+
+> 需要先安装 Tampermonkey 或 Violentmonkey；点击链接后脚本管理器会弹出安装确认。
+
 ## 功能
 
 - **RJ 码预览**（原有功能）：自动识别页面中的 `RJxxxxxx`，悬停显示 DLsite 作品名、社团、声优、标签、评分、销量等信息。
@@ -24,7 +34,7 @@
 ## 安装
 
 1. 安装 [Tampermonkey](https://www.tampermonkey.net/) 或 Violentmonkey；
-2. 打开本仓库中的 `dlsite-rj-code-preview.user.js`，通过 Raw 地址安装（或新建脚本后粘贴内容）；
+2. 点击 [一键安装链接](https://raw.githubusercontent.com/Sakyoriii/rj-code-preview/main/dlsite-rj-code-preview.user.js)，或打开本仓库中的 `dlsite-rj-code-preview.user.js` 通过 Raw 安装；
 3. 首次使用时配置本地 Kikoeru。
 
 > 本仓库直接发布修改后的构建产物 `dlsite-rj-code-preview.user.js`；上游 TypeScript 源码与 `dist/` 构建配置保持原样，未随本 fork 重新编译。
